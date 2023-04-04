@@ -1,0 +1,21 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InlineCodeVsFunction", "InlineCodeVsFunction", "{173ABB1B-042A-429A-996B-5EE89C91461B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InlineCodeVsFunction", "InlineCodeVsFunction\InlineCodeVsFunction.csproj", "{BF222CEB-B4B5-4AF8-B9B1-41D99E39A56E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BF222CEB-B4B5-4AF8-B9B1-41D99E39A56E} = {173ABB1B-042A-429A-996B-5EE89C91461B}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF222CEB-B4B5-4AF8-B9B1-41D99E39A56E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF222CEB-B4B5-4AF8-B9B1-41D99E39A56E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF222CEB-B4B5-4AF8-B9B1-41D99E39A56E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF222CEB-B4B5-4AF8-B9B1-41D99E39A56E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
