@@ -3,5 +3,5 @@
 using BenchmarkDotNet.Running;
 using InlineCodeVsFunction;
 
-BenchmarkRunner.Run<PersonBenchmark>();
-
+//BenchmarkRunner.Run<PersonBenchmark>();
+BenchmarkRunner.Run<PersonWithDatabaseBenchmark>();

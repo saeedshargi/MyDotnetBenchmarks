@@ -8,9 +8,10 @@ namespace InlineCodeVsFunction;
 [ExceptionDiagnoser]
 public class PersonBenchmark
 {
-    private readonly List<Person> _persons = new List<Person>();
+    private readonly List<Person> _persons = new();
 
-    public PersonBenchmark()
+    [GlobalSetup]
+    public void Setup()
     {
         for (int i = 0; i < 10000; i++)
         {
