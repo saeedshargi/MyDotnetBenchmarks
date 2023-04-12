@@ -1,2 +1,5 @@
-# MyDotnetBenchmarks
-Try to benchmarks in C# and dotnet
+# Benchmarks in C# and dotnet
+
+**Benchmarks**
+
+* InlineCodeVsFunction
